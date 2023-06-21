@@ -1,6 +1,40 @@
-h1{
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 80px;
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    overflow: auto;
 }
 
+.text-header{
+    width: auto;
+    margin: auto;
+    color: white;
+}
+
+
+.navUL{
+    list-style-type: none;
+    margin: auto 0;
+    padding: 0;
+    color: rgb(198, 134, 134);
+    border-top: 1 solid;
+    border-right: 1 solid;
+    border-left: 1 solid;
+    width: 100%;
+
+}
+
+.navUL li{
+
+    padding: .2em 1em; 
+    background-color: rgb(140, 189, 245);
+    padding: .5;
+    display: inline-block;
+    text-align: center;
+    
+   
+
+
+}
