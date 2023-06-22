@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 150px;
+    border: 2px solid black;
+    color: black;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.banner h1{
+    font-size: 2.5em;
+    color: brown;
+}
+.login-form{
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+    width: 95%;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #4a86e8;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-form input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4a86e8;
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+}
+
+.login-form input[type="reset"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f56f4a;
+    color: #61cbee;
+    cursor: pointer;
+    align-items: center;
+}
+.login-form input[type="submit"]:hover{
+    background-color: #375c99;
+
+}
+.login-form input[type="reset"]:hover{
+    background-color: #375c99;
+}
+
+.footer{
+    color: #ffffff;
+    background-color: #4a86e8;
+    padding: 20px;
+    text-align: center;
+    position:fixed;
+    bottom: 2%;
+    width: 80%;
+}
+
+
+
+
+
