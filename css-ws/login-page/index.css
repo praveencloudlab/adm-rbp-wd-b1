@@ -23,68 +23,63 @@ body{
     color: brown;
 }
 
-.lock-image{
+.login-page {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.lock-image img{
-    width: 100%;
-    height: auto;
-}
-
-
-.login-form{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
-}
+  }
 
-.lock-image,
-.login-form{
-   flex: 1;
-   max-width: 45%;
-}
-
-.login-form form{
+.login-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .lock-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lock-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
-}
-.login-form input,
-.login-form button{
-   width: 100%;
-   padding: 10px;
-   border: none;
-   border-radius: 5px;
-   background-color: antiquewhite;
-}
-.login-form button{
-   background-color: #007BFF;
-}
-
-.login-form input[type="reset"]{
-    padding: 10px 20px;
-    border-radius: 5px;
+  }
+  
+  .login-form input,
+  .login-form button {
+    width: 100%;
+    padding: 10px;
     border: none;
-    background-color: #f56f4a;
-    color: #61cbee;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: #007BFF;
+    color: white;
     cursor: pointer;
-    align-items: center;
-}
-.login-form input[type="submit"]:hover{
-    background-color: #375c99;
-
-}
-.login-form input[type="reset"]:hover{
-    background-color: #375c99;
-}
+  }
+  
 
 .footer{
     color: #ffffff;

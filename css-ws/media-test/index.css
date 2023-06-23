@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* For iPhone X */
+@media (max-width: 768px) {
+    body {
+        background: #acac35; /* Changing background color for demo */
+    }
+
+    nav ul li a {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+}
+
+/* For iPad Pro */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background: #D3D3D3; /* Changing background color for demo */
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        border: none;
+    }
+}
+
+
+/* For Laptop */
+@media (min-width: 1366px) {
+    body {
+        background: #ADD8E6; /* Changing background color for demo */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        border: none;
+        padding: 15px;
+    }
+
+    nav ul li a {
+        font-size: 30px; /* Larger font size for larger screens */
+    }
+}
+
+
+
