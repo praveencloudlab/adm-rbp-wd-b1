@@ -1,0 +1,23 @@
+body{
+    font-size: Arial, sans-serif;
+}
+
+#app{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#todo-list div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#todo-list span{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
