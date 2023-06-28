@@ -1,0 +1,66 @@
+1.Map:
+-----------
+The map method creates a new array by applying a function to each element of an existing array.
+ex: const numbers = [1, 2, 3, 4, 5];
+const squaredNumbers = numbers.map((num) => num * num);
+
+console.log(squaredNumbers); // [1, 4, 9, 16, 25]
+
+2.Filter:
+-----------
+The filter method creates a new array with all the elements that pass a given condition.
+
+ex: const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
+
+console.log(evenNumbers); // [2, 4]
+
+3.Find:
+---------
+The find method returns the first element that satisfies a given condition.
+ex: const numbers = [1, 2, 3, 4, 5];
+const foundNumber = numbers.find((num) => num > 3);
+
+console.log(foundNumber); // 4
+
+4.forEach:
+------------
+The forEach method iterates over each element of an array and executes a provided function.
+ex: const numbers = [1, 2, 3, 4, 5];
+numbers.forEach((num) => console.log(num));
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 5
+
+5.includes:
+-------------
+The includes method checks if an array contains a specific element and returns true or false.
+const fruits = ['apple', 'banana', 'orange'];
+const hasBanana = fruits.includes('banana');
+
+console.log(hasBanana); // true
+
+6.some:
+--------
+The some method checks if at least one element in an array satisfies a given condition.
+
+ex: const numbers = [1, 2, 3, 4, 5];
+const hasEvenNumber = numbers.some((num) => num % 2 === 0);
+
+console.log(hasEvenNumber); // true
+
+
+
+
+
+
+
+
+
+
+
+
+
